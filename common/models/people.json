@@ -1,0 +1,38 @@
+{
+  "name": "People",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "city": {
+      "type": "string"
+    },
+    "vibration": {
+      "type": "string"
+    },
+    "sound": {
+      "type": "string"
+    },
+    "parent": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

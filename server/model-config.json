@@ -38,5 +38,9 @@
   "important_location": {
     "dataSource": "db",
     "public": true
+  },
+  "People": {
+    "dataSource": "people",
+    "public": true
   }
 }
